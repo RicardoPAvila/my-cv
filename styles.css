@@ -12,7 +12,7 @@
     text-align: center;
 }
 
-.information-column hr{
+.information-column hr {
     border: none;
     border-bottom: 1px solid green;
     margin-top: 18px;
@@ -34,6 +34,7 @@
 
 .information-column ul {
     list-style-type: none;
+    margin: 10px 0;
 }
 
 .information-column li {
@@ -48,14 +49,14 @@
 
 .contact-description i {
     color: #008000;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .education-description {
     margin-top: 32px;
 }
 
-.education-description p{
+.education-description p {
     color: #008000;
 }
 
@@ -89,7 +90,6 @@
     padding: 40px;
     background-color: #fff;
     color: #000;
-    text-align: left;
 }
 
 .experiences-column section {
@@ -101,10 +101,10 @@
 }
 
 .experiences-column .experiences {
-    margin-bottom: 14px;
+    margin-bottom: 15px;
 }
 
-.experiences-column a{
+.experiences-column a {
     text-decoration: underline;
     color: #000;
 }
@@ -121,9 +121,11 @@
         width: 200px;
         height: 200px;
     }
+
     .experiences-column .experiences {
         display: flex;
     }
+
     .experience-date {
         width: 300px;
     }
